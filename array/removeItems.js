@@ -46,3 +46,4 @@ function removeItems(arr, fn) {
 }
 var removeItemsResult = removeItems(numbers, num => num > 4);
 console.log(removeItemsResult);
+console.log(numbers);
