@@ -2,7 +2,7 @@
 var user = {
   name: 'Victor',
   email: 'rommel@gmail.com'
-}
+};
 
 //comment the method bellow to modify the user output logs
 Object.freeze(user);
@@ -10,7 +10,7 @@ Object.freeze(user);
 //modifications
 user.name = 'frictor';
 user.lastName = 'firekush';
-user.email = 'oh no! bad new...';
+user.email = 'oh no! bad news...';
 
 //logs
 console.log(user);
